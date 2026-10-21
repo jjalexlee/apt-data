@@ -1,0 +1,14 @@
+{
+  "name": "apt-data",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test-collect": "node step1-test.js",
+    "collect-seoul": "node step2-collect-seoul.js",
+    "build-data": "node step3-build.js"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.4.1"
+  }
+}
